@@ -1,0 +1,1 @@
+export default function Inbox(){return <><h1>Inbox</h1><div className="panel"><b>Telegram Inbox</b><p className="muted">Синхронизация входящих сообщений будет подключена после авторизации рабочего Telegram-аккаунта.</p></div></>}

@@ -32,3 +32,6 @@ MVP web CRM for Telegram-assisted equipment sales.
 5. API docs: http://localhost:8000/docs
 
 Telegram credentials are intentionally not committed to Git.
+
+
+<!-- redeploy: 2026-09-30 vercel refresh -->

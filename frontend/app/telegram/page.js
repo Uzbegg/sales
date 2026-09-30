@@ -1,0 +1,1 @@
+export default function Telegram(){return <><h1>Telegram Accounts</h1><div className="panel"><h3>Рабочий аккаунт</h3><p className="muted">Подключение по номеру, коду Telegram и 2FA будет следующим модулем. API ID/API Hash хранятся только на сервере.</p><button className="btn" disabled>Подключить Telegram</button></div></>}

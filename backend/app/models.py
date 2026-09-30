@@ -19,6 +19,7 @@ class Lead(Base):
     telegram_status: Mapped[str] = mapped_column(String(40), default="unchecked")
     telegram_username: Mapped[str] = mapped_column(String(120), default="")
     telegram_user_id: Mapped[str] = mapped_column(String(64), default="")
+    telegram_access_hash: Mapped[str] = mapped_column(String(64), default="")
     status: Mapped[str] = mapped_column(String(80), default="new")
     product_interest: Mapped[str] = mapped_column(String(120), default="")
     opt_out: Mapped[bool] = mapped_column(Boolean, default=False)
